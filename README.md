@@ -46,7 +46,7 @@ A **console-based Library Management System** for managing library book stocks, 
 
 Make sure your MySQL server has a database and tables as follows:
 
-- **Database:** `jaykamavisdar`
+- **Database:** `mansi rawat`
 - **Tables:**
 - `libimport` (`book_name`, `author`, `quantity`, `date_of_arrival`)
 - `libstocks` (`book_id`, `book_name`, `author`, `shelf_no`)
@@ -64,8 +64,8 @@ Edit MySQL credentials in your Python script as needed:
 mdb = mc.connect(
 host='localhost',
 user='root',
-passwd='jayk',
-database='jaykamavisdar'
+passwd='mansik',
+database='mansirawat'
 )
 
 Set the `user`, `passwd`, and `database` fields to your own MySQL settings.
